@@ -1,0 +1,185 @@
+******************************************************************************
+                  TI ARM Linker PC v18.1.4                     
+******************************************************************************
+>> Linked Sun Aug 27 16:51:54 2023
+
+OUTPUT FILE NAME:   <Interrupt.out>
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00000509
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00100000  000006a8  000ff958  R  X
+  SRAM                  20000000   00040000  00000204  0003fdfc  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    000006ac   000006ac    r-x
+  00000000    00000000    00000208   00000208    r-- .intvecs
+  00000208    00000208    00000380   00000380    r-x .text
+  00000588    00000588    0000010c   0000010c    r-- .const
+  00000698    00000698    00000014   00000014    r-- .cinit
+20000000    20000000    00000204   00000000    rw-
+  20000000    20000000    00000200   00000000    rw- .stack
+  20000200    20000200    00000004   00000000    rw- .bss
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    00000208     
+                  00000000    00000208     tm4c129encpdt_startup_ccs.obj (.intvecs)
+
+.text      0    00000208    00000380     
+                  00000208    00000254     main.obj (.text)
+                  0000045c    00000068     driverlib.lib : interrupt.obj (.text:IntEnable)
+                  000004c4    00000044     rtsv7M4_T_le_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  00000508    00000028                           : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
+                  00000530    00000024     driverlib.lib : interrupt.obj (.text:IntPrioritySet)
+                  00000554    00000004     rtsv7M4_T_le_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
+                  00000558    0000001a     tm4c129encpdt_startup_ccs.obj (.text)
+                  00000572    00000012     rtsv7M4_T_le_eabi.lib : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init_nomemset:__TI_zero_init_nomemset)
+                  00000584    00000004                           : exit.c.obj (.text:abort:abort)
+
+.const     0    00000588    0000010c     
+                  00000588    0000009c     driverlib.lib : interrupt.obj (.const:g_pui32Regs)
+                  00000624    00000070                   : interrupt.obj (.const)
+
+.cinit     0    00000698    00000014     
+                  00000698    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  000006a0    00000004     (__TI_handler_table)
+                  000006a4    00000008     (__TI_cinit_table)
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.bss       0    20000200    00000004     UNINITIALIZED
+                  20000200    00000004     (.common:ulLoop)
+
+.stack     0    20000000    00000200     UNINITIALIZED
+                  20000000    00000004     rtsv7M4_T_le_eabi.lib : boot_cortex_m.c.obj (.stack)
+                  20000004    000001fc     --HOLE--
+
+MODULE SUMMARY
+
+       Module                          code   ro data   rw data
+       ------                          ----   -------   -------
+    .\
+       main.obj                        596    0         4      
+       tm4c129encpdt_startup_ccs.obj   26     520       0      
+    +--+-------------------------------+------+---------+---------+
+       Total:                          622    520       4      
+                                                               
+    C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib
+       interrupt.obj                   140    268       0      
+    +--+-------------------------------+------+---------+---------+
+       Total:                          140    268       0      
+                                                               
+    C:\ti\ccsv8\tools\compiler\ti-cgt-arm_18.1.4.LTS\lib\rtsv7M4_T_le_eabi.lib
+       autoinit.c.obj                  68     0         0      
+       boot_cortex_m.c.obj             40     0         0      
+       copy_zero_init.c.obj            18     0         0      
+       exit.c.obj                      4      0         0      
+       pre_init.c.obj                  4      0         0      
+    +--+-------------------------------+------+---------+---------+
+       Total:                          134    0         0      
+                                                               
+       Stack:                          0      0         512    
+       Linker Generated:               0      20        0      
+    +--+-------------------------------+------+---------+---------+
+       Grand Total:                    896    808       516    
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 000006a4 records: 1, size/record: 8, table size: 8
+	.bss: load addr=00000698, load size=00000008 bytes, run addr=20000200, run size=00000004 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 000006a0 records: 1, size/record: 4, table size: 4
+	index: 0, handler: __TI_zero_init
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                          
+-------   ----                          
+00000585  C$$EXIT                       
+0000045d  IntEnable                     
+00000531  IntPrioritySet                
+00000379  PortJ_IntHandler              
+00000559  ResetISR                      
+20000200  __STACK_END                   
+00000200  __STACK_SIZE                  
+20000200  __STACK_TOP                   
+000006a4  __TI_CINIT_Base               
+000006ac  __TI_CINIT_Limit              
+000006a0  __TI_Handler_Table_Base       
+000006a4  __TI_Handler_Table_Limit      
+000004c5  __TI_auto_init_nobinit_nopinit
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+00000000  __TI_static_base__            
+00000573  __TI_zero_init_nomemset       
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+UNDEFED   __mpu_init                    
+20000000  __stack                       
+00000509  _c_int00_noargs               
+UNDEFED   _system_post_cinit            
+00000555  _system_pre_init              
+00000585  abort                         
+ffffffff  binit                         
+00000000  g_pfnVectors                  
+00000389  interruptBlinking             
+00000209  main                          
+20000200  ulLoop                        
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                          
+-------   ----                          
+00000000  __TI_static_base__            
+00000000  g_pfnVectors                  
+00000200  __STACK_SIZE                  
+00000209  main                          
+00000379  PortJ_IntHandler              
+00000389  interruptBlinking             
+0000045d  IntEnable                     
+000004c5  __TI_auto_init_nobinit_nopinit
+00000509  _c_int00_noargs               
+00000531  IntPrioritySet                
+00000555  _system_pre_init              
+00000559  ResetISR                      
+00000573  __TI_zero_init_nomemset       
+00000585  C$$EXIT                       
+00000585  abort                         
+000006a0  __TI_Handler_Table_Base       
+000006a4  __TI_CINIT_Base               
+000006a4  __TI_Handler_Table_Limit      
+000006ac  __TI_CINIT_Limit              
+20000000  __stack                       
+20000200  __STACK_END                   
+20000200  __STACK_TOP                   
+20000200  ulLoop                        
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+ffffffff  binit                         
+UNDEFED   __mpu_init                    
+UNDEFED   _system_post_cinit            
+
+[31 symbols]

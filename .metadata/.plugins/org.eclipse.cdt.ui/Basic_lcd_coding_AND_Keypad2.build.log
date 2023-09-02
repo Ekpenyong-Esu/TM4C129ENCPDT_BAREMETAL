@@ -1,0 +1,28 @@
+
+**** Build of configuration Debug for project Basic_lcd_coding_AND_Keypad2 ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../tm4c129encpdt_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="C:/ti/tivaware_c_series_2_1_4_178/inc" --include_path="C:/ti/tivaware_c_series_2_1_4_178/examples/boards/ek-tm4c129exl" --include_path="C:/Users/mahon/workspace_v8/Basic_lcd_coding_AND_Keypad2" --include_path="C:/ti/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c129encpdt_startup_ccs.d_raw"  "../tm4c129encpdt_startup_ccs.c"
+Finished building: "../tm4c129encpdt_startup_ccs.c"
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="C:/ti/tivaware_c_series_2_1_4_178/inc" --include_path="C:/ti/tivaware_c_series_2_1_4_178/examples/boards/ek-tm4c129exl" --include_path="C:/Users/mahon/workspace_v8/Basic_lcd_coding_AND_Keypad2" --include_path="C:/ti/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../drive/Key.c"
+Invoking: Arm Compiler
+"C:/ti/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="C:/ti/tivaware_c_series_2_1_4_178/inc" --include_path="C:/ti/tivaware_c_series_2_1_4_178/examples/boards/ek-tm4c129exl" --include_path="C:/Users/mahon/workspace_v8/Basic_lcd_coding_AND_Keypad2" --include_path="C:/ti/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="drive/Key.d_raw" --obj_directory="drive"  "../drive/Key.c"
+Finished building: "../drive/Key.c"
+ 
+Building target: "Basic_lcd_coding_AND_Keypad2.out"
+Invoking: Arm Linker
+"C:/ti/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Basic_lcd_coding_AND_Keypad2.map" --heap_size=0 --stack_size=512 -i"C:/ti/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Basic_lcd_coding_AND_Keypad2_linkInfo.xml" --rom_model -o "Basic_lcd_coding_AND_Keypad2.out" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "./drive/Key.obj" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Basic_lcd_coding_AND_Keypad2.out"
+ 
+
+**** Build Finished ****

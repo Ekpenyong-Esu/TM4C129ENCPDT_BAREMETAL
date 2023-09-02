@@ -1,0 +1,925 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                              (ResetISR)
+C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                              C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o) (GPIOAIntHandler)
+C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+                              ./toneMelody.o (delay)
+C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                              C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o) (digital_pin_to_bit_mask)
+C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+                              C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o) (_init)
+C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+                              ./toneMelody.o (tone(unsigned char, unsigned int, unsigned long))
+C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+                              C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o) (getTimerBase)
+C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+                              C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o) (EEPROMMassErase)
+C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+                              C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o) (GPIOPadConfigSet)
+C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+                              C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o) (IntRegister)
+C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+                              C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o) (SysCtlPeripheralReset)
+C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+                              C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o) (CPUcpsid)
+c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+                              ./toneMelody.o (__aeabi_i2d)
+c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+                              ./toneMelody.o (__aeabi_dmul)
+c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+                              ./toneMelody.o (__aeabi_d2iz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./toneMelody.o
+ .data          0x00000000        0x0 ./toneMelody.o
+ .bss           0x00000000        0x0 ./toneMelody.o
+ .text          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .data          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text.ToneIntHandler
+                0x00000000        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text.I2CIntHandler
+                0x00000000        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._sbrk    0x00000000       0x28 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text.link     0x00000000        0x6 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._close   0x00000000        0x6 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._fstat   0x00000000        0xa C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._isatty  0x00000000        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._lseek   0x00000000        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._read    0x00000000        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._write   0x00000000        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._kill    0x00000000        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text._getpid  0x00000000        0x6 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .bss.__dso_handle
+                0x00000000        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .bss.heap_end.7731
+                0x00000000        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .data          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .text.attachInterrupt
+                0x00000000      0x304 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .text.detachInterrupt
+                0x00000000      0x1c8 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .text          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .data          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text.CPUwfi_safe
+                0x00000000        0x8 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text.micros   0x00000000       0x2c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text.millis   0x00000000        0xc C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text.sleep    0x00000000       0xcc C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text.sleepSeconds
+                0x00000000       0xd4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text.suspend  0x00000000       0x54 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text.registerSysTickCb
+                0x00000000       0x1c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .bss.stay_asleep
+                0x00000000        0x1 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .text          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .data          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .text.digitalRead
+                0x00000000       0x38 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .rodata.digital_pin_to_analog_in
+                0x00000000      0x180 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .text          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .data          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .text          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .data          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .text._Z4tonehj
+                0x00000000       0x44 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .text          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .data          0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .text.getTimerInterrupt
+                0x00000000        0xc C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .text.analogReference
+                0x00000000        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .text.analogWrite
+                0x00000000        0xc C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .text.analogReadResolution
+                0x00000000        0xc C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .text.analogRead
+                0x00000000       0xe4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .data._readResolution
+                0x00000000        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .text          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .data          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text._EEPROMSectorMaskSet
+                0x00000000       0x40 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMInit
+                0x00000000       0x3c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMSizeGet
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMBlockCountGet
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMRead
+                0x00000000       0x40 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMProgram
+                0x00000000       0xc0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMProgramNonBlocking
+                0x00000000       0x44 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMBlockProtectGet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMBlockProtectSet
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMBlockPasswordSet
+                0x00000000       0x34 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMBlockLock
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMBlockUnlock
+                0x00000000       0x30 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMBlockHide
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMIntEnable
+                0x00000000       0x20 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMIntDisable
+                0x00000000       0x20 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMIntStatus
+                0x00000000       0x24 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMIntClear
+                0x00000000       0x30 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMStatusGet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .data          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text._GPIOIntNumberGet
+                0x00000000       0x48 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIODirModeSet
+                0x00000000       0x2e C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIODirModeGet
+                0x00000000       0x24 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntTypeSet
+                0x00000000       0x5a C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntTypeGet
+                0x00000000       0x4a C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPadConfigGet
+                0x00000000       0xc4 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntEnable
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntDisable
+                0x00000000        0xe C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntRegister
+                0x00000000       0x1a C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntUnregister
+                0x00000000       0x16 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntRegisterPin
+                0x00000000       0x1e C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOIntUnregisterPin
+                0x00000000       0x1a C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinRead
+                0x00000000        0x6 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinWrite
+                0x00000000        0x6 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeADC
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeCAN
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeComparator
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeComparatorOutput
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeDIVSCLK
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeEPI
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeEthernetLED
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeEthernetMII
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeGPIOInput
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeGPIOOutput
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeGPIOOutputOD
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeHibernateRTCCLK
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeI2C
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeI2CSCL
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeLCD
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeOneWire
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypePWM
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeQEI
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeSSI
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeTimer
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeTrace
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeUART
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeUSBAnalog
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeUSBDigital
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeWakeHigh
+                0x00000000       0x1e C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinTypeWakeLow
+                0x00000000       0x1e C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinWakeStatus
+                0x00000000        0x6 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOPinConfigure
+                0x00000000       0x4c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIODMATriggerEnable
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIODMATriggerDisable
+                0x00000000        0xe C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOADCTriggerEnable
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text.GPIOADCTriggerDisable
+                0x00000000        0xe C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .rodata.g_ppui32GPIOIntMapSnowflake
+                0x00000000       0xd8 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .rodata.g_pui32GPIOBaseAddrs
+                0x00000000       0x90 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .rodata.g_ppui32GPIOIntMapBlizzard
+                0x00000000       0xc0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .text          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .data          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text._IntDefaultHandler
+                0x00000000        0x2 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntMasterEnable
+                0x00000000        0xe C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntMasterDisable
+                0x00000000        0xe C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntRegister
+                0x00000000       0x34 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntUnregister
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPriorityGroupingSet
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPriorityGroupingGet
+                0x00000000       0x24 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPrioritySet
+                0x00000000       0x2c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPriorityGet
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntEnable
+                0x00000000       0x60 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntDisable
+                0x00000000       0x60 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntIsEnabled
+                0x00000000       0x64 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPendSet
+                0x00000000       0x50 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPendClear
+                0x00000000       0x40 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPriorityMaskSet
+                0x00000000        0x4 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntPriorityMaskGet
+                0x00000000        0x4 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text.IntTrigger
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .rodata.g_pui32Priority
+                0x00000000       0x20 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .rodata.g_pui32Dii16Regs
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .rodata.g_pui32PendRegs
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ vtable         0x00000000      0x400 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .rodata.g_pui32Regs
+                0x00000000       0x9c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .rodata.g_pui32EnRegs
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .rodata.g_pui32UnpendRegs
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .comment       0x00000000       0x71 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .ARM.attributes
+                0x00000000       0x3b C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(interrupt.o)
+ .text          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .data          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlSRAMSizeGet
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlFlashSizeGet
+                0x00000000       0x3c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlFlashSectorSizeGet
+                0x00000000       0x38 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralPresent
+                0x00000000       0x26 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralReady
+                0x00000000       0x26 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOn
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOff
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralEnable
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralDisable
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralSleepEnable
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralSleepDisable
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepEnable
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepDisable
+                0x00000000       0x22 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralClockGating
+                0x00000000       0x48 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlIntRegister
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlIntUnregister
+                0x00000000       0x12 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlIntEnable
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlIntDisable
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlIntClear
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlIntStatus
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlLDOSleepSet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlLDOSleepGet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlLDODeepSleepSet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlLDODeepSleepGet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlSleepPowerSet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlReset
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlSleep
+                0x00000000        0x4 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlDeepSleep
+                0x00000000       0x20 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlResetCauseGet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlResetCauseClear
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlMOSCConfigSet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPIOSCCalibrate
+                0x00000000       0x48 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlResetBehaviorSet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlResetBehaviorGet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlClockSet
+                0x00000000      0x11c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlClockGet
+                0x00000000      0x12c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlDeepSleepClockSet
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlDeepSleepClockConfigSet
+                0x00000000       0x60 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPWMClockSet
+                0x00000000       0x14 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPWMClockGet
+                0x00000000       0x18 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlGPIOAHBEnable
+                0x00000000       0x18 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlGPIOAHBDisable
+                0x00000000       0x1c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlUSBPLLEnable
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlUSBPLLDisable
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlVoltageEventConfig
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlVoltageEventStatus
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlVoltageEventClear
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlVCOGet
+                0x00000000       0x78 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlNMIStatus
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlNMIClear
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlClockOutConfig
+                0x00000000       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlAltClkConfig
+                0x00000000        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .data          0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .bss           0x00000000        0x0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .text.CPUcpsid
+                0x00000000        0x8 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .text.CPUprimask
+                0x00000000        0x6 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .text.CPUcpsie
+                0x00000000        0x8 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .text.CPUwfi   0x00000000        0x4 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .text.CPUbasepriSet
+                0x00000000        0x6 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .text.CPUbasepriGet
+                0x00000000        0x6 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .comment       0x00000000       0x71 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .ARM.attributes
+                0x00000000       0x3b C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(cpu.o)
+ .data          0x00000000        0x0 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x00000000         0x00100000         xr
+ram              0x20000000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./toneMelody.o
+START GROUP
+
+.text           0x00000000     0x1c20
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _text = .
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x200 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x00000000                g_pfnVectors
+ *(.text .text* .gnu.linkonce.t.*)
+ .text.setup    0x00000200       0x68 ./toneMelody.o
+                0x00000200                setup
+ .text.loop     0x00000268        0x2 ./toneMelody.o
+                0x00000268                loop
+ .text.NmiSR    0x0000026a        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text.FaultISR
+                0x0000026c        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text.IntDefaultHandler
+                0x0000026e        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .text.ResetISR
+                0x00000270       0x98 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x00000270                ResetISR
+ .text.UARTIntHandler
+                0x00000308        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x00000308                UARTIntHandler
+ .text.UARTIntHandler1
+                0x0000030a        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x0000030a                UARTIntHandler1
+ .text.UARTIntHandler2
+                0x0000030c        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x0000030c                UARTIntHandler2
+ .text.UARTIntHandler3
+                0x0000030e        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x0000030e                UARTIntHandler3
+ .text.UARTIntHandler4
+                0x00000310        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x00000310                UARTIntHandler4
+ .text.UARTIntHandler5
+                0x00000312        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x00000312                UARTIntHandler5
+ .text.UARTIntHandler6
+                0x00000314        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x00000314                UARTIntHandler6
+ .text.UARTIntHandler7
+                0x00000316        0x2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                0x00000316                UARTIntHandler7
+ .text.GPIOXIntHandler
+                0x00000318       0x30 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000318                GPIOXIntHandler
+ .text.GPIOAIntHandler
+                0x00000348       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000348                GPIOAIntHandler
+ .text.GPIOBIntHandler
+                0x00000358       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000358                GPIOBIntHandler
+ .text.GPIOCIntHandler
+                0x00000368       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000368                GPIOCIntHandler
+ .text.GPIODIntHandler
+                0x00000378       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000378                GPIODIntHandler
+ .text.GPIOEIntHandler
+                0x00000388       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000388                GPIOEIntHandler
+ .text.GPIOFIntHandler
+                0x00000398       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000398                GPIOFIntHandler
+ .text.GPIOGIntHandler
+                0x000003a8       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x000003a8                GPIOGIntHandler
+ .text.GPIOHIntHandler
+                0x000003b8       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x000003b8                GPIOHIntHandler
+ .text.GPIOJIntHandler
+                0x000003c8       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x000003c8                GPIOJIntHandler
+ .text.GPIOKIntHandler
+                0x000003d8       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x000003d8                GPIOKIntHandler
+ .text.GPIOLIntHandler
+                0x000003e8       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x000003e8                GPIOLIntHandler
+ .text.GPIOMIntHandler
+                0x000003f8       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x000003f8                GPIOMIntHandler
+ .text.GPIONIntHandler
+                0x00000408       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000408                GPIONIntHandler
+ .text.GPIOPIntHandler
+                0x00000418       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000418                GPIOPIntHandler
+ .text.GPIOQIntHandler
+                0x00000428       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000428                GPIOQIntHandler
+ .text.GPIORIntHandler
+                0x00000438       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000438                GPIORIntHandler
+ .text.GPIOSIntHandler
+                0x00000448       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000448                GPIOSIntHandler
+ .text.GPIOTIntHandler
+                0x00000458       0x10 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                0x00000458                GPIOTIntHandler
+ .text.timerInit
+                0x00000468       0x5c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+                0x00000468                timerInit
+ .text.delay    0x000004c4       0x18 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+                0x000004c4                delay
+ .text.delayMicroseconds
+                0x000004dc       0x50 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+                0x000004dc                delayMicroseconds
+ .text.SysTickIntHandler
+                0x0000052c       0x28 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+                0x0000052c                SysTickIntHandler
+ .text.pinMode  0x00000554       0xa8 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x00000554                pinMode
+ .text.digitalWrite
+                0x000005fc       0x3c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x000005fc                digitalWrite
+ .text._init    0x00000638      0x15c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+                0x00000638                _init
+ .text.startup.main
+                0x00000794       0x1c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+                0x00000794                main
+ .text._Z4tonehjm
+                0x000007b0       0xb4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+                0x000007b0                tone(unsigned char, unsigned int, unsigned long)
+ .text._Z6noToneh
+                0x00000864       0xa0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+                0x00000864                noTone(unsigned char)
+ .text.ToneIntHandler
+                0x00000904       0x58 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+                0x00000904                ToneIntHandler
+ .text.getTimerBase
+                0x0000095c        0xc C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+                0x0000095c                getTimerBase
+ .text.enableTimerPeriph
+                0x00000968       0x14 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+                0x00000968                enableTimerPeriph
+ .text.PWMWrite
+                0x0000097c      0x150 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+                0x0000097c                PWMWrite
+ .text._EEPROMWaitForDone
+                0x00000acc       0x10 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text._EEPROMSectorMaskClear
+                0x00000adc       0x34 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .text.EEPROMMassErase
+                0x00000b10       0x58 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+                0x00000b10                EEPROMMassErase
+ .text.GPIOPadConfigSet
+                0x00000b68      0x130 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+                0x00000b68                GPIOPadConfigSet
+ .text.GPIOIntStatus
+                0x00000c98        0xe C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+                0x00000c98                GPIOIntStatus
+ .text.GPIOIntClear
+                0x00000ca6        0x6 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+                0x00000ca6                GPIOIntClear
+ .text._SysCtlMemTimingGet
+                0x00000cac       0x24 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .text.SysCtlPeripheralReset
+                0x00000cd0       0x3a C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+                0x00000cd0                SysCtlPeripheralReset
+ *fill*         0x00000d0a        0x2 
+ .text.SysCtlDeepSleepPowerSet
+                0x00000d0c        0xc C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+                0x00000d0c                SysCtlDeepSleepPowerSet
+ .text.SysCtlDelay
+                0x00000d18        0x8 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+                0x00000d18                SysCtlDelay
+ .text.SysCtlClockFreqSet
+                0x00000d20      0x248 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+                0x00000d20                SysCtlClockFreqSet
+ .text          0x00000f68      0x370 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+                0x00000f68                __aeabi_drsub
+                0x00000f70                __aeabi_dsub
+                0x00000f70                __subdf3
+                0x00000f74                __aeabi_dadd
+                0x00000f74                __adddf3
+                0x000011ec                __floatunsidf
+                0x000011ec                __aeabi_ui2d
+                0x0000120c                __floatsidf
+                0x0000120c                __aeabi_i2d
+                0x00001230                __aeabi_f2d
+                0x00001230                __extendsfdf2
+                0x0000126c                __floatundidf
+                0x0000126c                __aeabi_ul2d
+                0x0000127c                __floatdidf
+                0x0000127c                __aeabi_l2d
+ .text          0x000012d8      0x424 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+                0x000012d8                __aeabi_dmul
+                0x000012d8                __muldf3
+                0x0000152c                __divdf3
+                0x0000152c                __aeabi_ddiv
+ .text          0x000016fc       0x50 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+                0x000016fc                __aeabi_d2iz
+                0x000016fc                __fixdfsi
+ *(.glue_7t)
+ .glue_7t       0x0000174c        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000174c        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.digital_pin_to_bit_mask
+                0x0000174c       0x60 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x0000174c                digital_pin_to_bit_mask
+ .rodata.digital_pin_to_port
+                0x000017ac       0x60 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x000017ac                digital_pin_to_port
+ .rodata.digital_pin_to_timer
+                0x0000180c       0x60 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x0000180c                digital_pin_to_timer
+ .rodata.port_to_base
+                0x0000186c       0x40 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x0000186c                port_to_base
+ .rodata.timer_to_ab
+                0x000018ac       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x000018ac                timer_to_ab
+ .rodata.timer_to_offset
+                0x000018cc       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x000018cc                timer_to_offset
+ .rodata.timer_to_pin_config
+                0x0000194c       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                0x0000194c                timer_to_pin_config
+ .rodata.g_pppui32XTALtoVCO
+                0x000019cc      0x1b0 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .rodata.g_pui32VCOFrequencies
+                0x00001b7c        0x8 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .rodata.g_sXTALtoMEMTIM
+                0x00001b84       0x30 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .rodata.g_pui32Xtals
+                0x00001bb4       0x6c C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001c20                . = ALIGN (0x4)
+ *(.init)
+                0x00001c20                . = ALIGN (0x4)
+                0x00001c20                __preinit_array_start = .
+ *(SORT(.preinit_array*))
+ *(.preinit_array)
+                0x00001c20                __preinit_array_end = .
+                0x00001c20                . = ALIGN (0x4)
+                0x00001c20                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x00001c20                __init_array_end = .
+                0x00001c20                . = ALIGN (0x4)
+ *(.fini)
+                0x00001c20                . = ALIGN (0x4)
+                0x00001c20                __fini_array_start = .
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x00001c20                __fini_array_end = .
+                0x00001c20                . = ALIGN (0x4)
+                0x00001c20                _etext = .
+
+.vfp11_veneer   0x00001c20        0x0
+ .vfp11_veneer  0x00001c20        0x0 linker stubs
+
+.v4_bx          0x00001c20        0x0
+ .v4_bx         0x00001c20        0x0 linker stubs
+
+.iplt           0x00001c20        0x0
+ .iplt          0x00001c20        0x0 ./toneMelody.o
+
+.rel.dyn        0x00001c20        0x0
+ .rel.iplt      0x00001c20        0x0 ./toneMelody.o
+
+.data           0x20000000       0x40 load address 0x00001c20
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _data = .
+ *(vtable)
+ *(.data .data* .gnu.linkonce.d.*)
+ .data.melody   0x20000000       0x20 ./toneMelody.o
+                0x20000000                melody
+ .data.noteDurations
+                0x20000020       0x20 ./toneMelody.o
+                0x20000020                noteDurations
+                0x20000040                _edata = .
+
+.igot.plt       0x20000040        0x0 load address 0x00001c60
+ .igot.plt      0x20000040        0x0 ./toneMelody.o
+
+.bss            0x20000040      0x270 load address 0x00001c60
+                0x20000040                . = ALIGN (0x4)
+                0x20000040                _bss = .
+ *(.bss .bss*)
+ .bss.cbFuncsA  0x20000040       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsB  0x20000060       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsC  0x20000080       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsD  0x200000a0       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsE  0x200000c0       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsF  0x200000e0       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsG  0x20000100       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsH  0x20000120       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsJ  0x20000140       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsK  0x20000160       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsL  0x20000180       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsM  0x200001a0       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsN  0x200001c0       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsP  0x200001e0       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsQ  0x20000200       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsR  0x20000220       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsS  0x20000240       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.cbFuncsT  0x20000260       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .bss.SysTickCbFuncs
+                0x20000280       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .bss.milliseconds
+                0x200002a0        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .bss._ZL10g_duration
+                0x200002a4        0x4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .bss._ZL10tone_state
+                0x200002a8        0x1 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .bss._ZL10tone_timer
+                0x200002a9        0x1 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .bss._ZL11current_pin
+                0x200002aa        0x1 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ *(COMMON)
+                0x200002ac                . = ALIGN (0x4)
+ *fill*         0x200002ab        0x1 
+                0x200002ac                _ebss = .
+                0x200002b0                . = ALIGN (0x8)
+ *fill*         0x200002ac        0x4 
+                [!provide]                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                PROVIDE (__exidx_end, .)
+                0x200002b0                . = ALIGN (0x4)
+                0x200002b0                _end = .
+                0x200002b0                PROVIDE (end, _end)
+                0x20040000                PROVIDE (_estack, (ORIGIN (ram) + LENGTH (ram)))
+LOAD C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a
+LOAD C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a
+LOAD c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a
+LOAD c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a
+LOAD c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a
+END GROUP
+OUTPUT(toneMelody.out elf32-littlearm)
+
+.debug_info     0x00000000     0x9775
+ .debug_info    0x00000000     0x1599 ./toneMelody.o
+ .debug_info    0x00001599     0x1401 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .debug_info    0x0000299a     0x119f C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .debug_info    0x00003b39     0x1015 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .debug_info    0x00004b4e      0xf95 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .debug_info    0x00005ae3     0x152f C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .debug_info    0x00007012     0x1651 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .debug_info    0x00008663     0x1112 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+
+.debug_abbrev   0x00000000     0x1796
+ .debug_abbrev  0x00000000      0x357 ./toneMelody.o
+ .debug_abbrev  0x00000357      0x2e0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .debug_abbrev  0x00000637      0x293 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .debug_abbrev  0x000008ca      0x2d7 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .debug_abbrev  0x00000ba1      0x25e C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .debug_abbrev  0x00000dff      0x31c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .debug_abbrev  0x0000111b      0x360 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .debug_abbrev  0x0000147b      0x31b C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+
+.debug_loc      0x00000000      0xc24
+ .debug_loc     0x00000000       0x31 ./toneMelody.o
+ .debug_loc     0x00000031      0x135 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .debug_loc     0x00000166      0x275 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .debug_loc     0x000003db       0xcc C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .debug_loc     0x000004a7      0x379 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .debug_loc     0x00000820      0x112 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .debug_loc     0x00000932      0x2f2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+
+.debug_aranges  0x00000000      0x2d0
+ .debug_aranges
+                0x00000000       0x28 ./toneMelody.o
+ .debug_aranges
+                0x00000028       0x90 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .debug_aranges
+                0x000000b8       0xc0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .debug_aranges
+                0x00000178       0x70 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .debug_aranges
+                0x000001e8       0x30 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .debug_aranges
+                0x00000218       0x28 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .debug_aranges
+                0x00000240       0x38 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .debug_aranges
+                0x00000278       0x58 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+
+.debug_ranges   0x00000000      0x2d0
+ .debug_ranges  0x00000000       0x38 ./toneMelody.o
+ .debug_ranges  0x00000038       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .debug_ranges  0x000000b8       0xb0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .debug_ranges  0x00000168       0x90 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .debug_ranges  0x000001f8       0x20 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .debug_ranges  0x00000218       0x18 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .debug_ranges  0x00000230       0x40 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .debug_ranges  0x00000270       0x60 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+
+.debug_line     0x00000000     0x26e9
+ .debug_line    0x00000000      0x563 ./toneMelody.o
+ .debug_line    0x00000563      0x4ac C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .debug_line    0x00000a0f      0x55f C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .debug_line    0x00000f6e      0x4ba C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .debug_line    0x00001428      0x3b2 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .debug_line    0x000017da      0x54a C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .debug_line    0x00001d24      0x588 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .debug_line    0x000022ac      0x43d C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+
+.debug_str      0x00000000     0x15cd
+ .debug_str     0x00000000      0xa71 ./toneMelody.o
+                                0xb56 (size before relaxing)
+ .debug_str     0x00000a71      0x477 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+                                0xc2b (size before relaxing)
+ .debug_str     0x00000ee8      0x287 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+                                0xb40 (size before relaxing)
+ .debug_str     0x0000116f      0x151 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+                                0x9d7 (size before relaxing)
+ .debug_str     0x000012c0       0x95 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+                                0x929 (size before relaxing)
+ .debug_str     0x00001355       0x6d C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+                                0xb7a (size before relaxing)
+ .debug_str     0x000013c2       0xd7 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+                                0xc0c (size before relaxing)
+ .debug_str     0x00001499      0x134 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+                                0x9f6 (size before relaxing)
+
+.comment        0x00000000       0xef
+ .comment       0x00000000       0x7f ./toneMelody.o
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .comment       0x0000007f       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .comment       0x0000007f       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .comment       0x0000007f       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .comment       0x0000007f       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .comment       0x0000007f       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .comment       0x0000007f       0x80 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .comment       0x0000007f       0x70 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+                                 0x71 (size before relaxing)
+ .comment       0x000000ef       0x71 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .comment       0x000000ef       0x71 C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+
+.ARM.attributes
+                0x00000000       0x39
+ .ARM.attributes
+                0x00000000       0x39 ./toneMelody.o
+ .ARM.attributes
+                0x00000039       0x39 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .ARM.attributes
+                0x00000072       0x39 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .ARM.attributes
+                0x000000ab       0x39 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .ARM.attributes
+                0x000000e4       0x39 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .ARM.attributes
+                0x0000011d       0x39 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .ARM.attributes
+                0x00000156       0x39 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .ARM.attributes
+                0x0000018f       0x39 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .ARM.attributes
+                0x000001c8       0x3b C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(eeprom.o)
+ .ARM.attributes
+                0x00000203       0x3b C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(gpio.o)
+ .ARM.attributes
+                0x0000023e       0x3b C:/Users/mahon/AppData/Local/Energia15/packages/energia/hardware/tivac/1.0.3/system/driverlib\libdriverlib.a(sysctl.o)
+ .ARM.attributes
+                0x00000279       0x22 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000029b       0x22 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000002bd       0x22 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)
+
+.debug_frame    0x00000000      0x828
+ .debug_frame   0x00000000       0x44 ./toneMelody.o
+ .debug_frame   0x00000044      0x1b0 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(startup_gcc.o)
+ .debug_frame   0x000001f4      0x194 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(WInterrupts.o)
+ .debug_frame   0x00000388      0x13c C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring.o)
+ .debug_frame   0x000004c4       0x74 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_digital.o)
+ .debug_frame   0x00000538       0x48 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(main.o)
+ .debug_frame   0x00000580       0xa4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(Tone.o)
+ .debug_frame   0x00000624       0xe4 C:/Users/mahon/workspace_v8/tivac_EK-TM4C1294XL_core/Debug\libtivac_EK-TM4C1294XL_core.a(wiring_analog.o)
+ .debug_frame   0x00000708       0xac c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000007b4       0x50 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00000804       0x24 c:/users/mahon/appdata/local/energia15/packages/energia/tools/arm-none-eabi-gcc/6.3.1-20170620/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_fixdfsi.o)

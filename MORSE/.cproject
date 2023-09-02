@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule configRelations="2" moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1031109136">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1031109136" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1031109136" name="Debug" parent="com.ti.ccstudio.buildDefinitions.TMS470.Debug">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1031109136." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.DebugToolchain.40202167" name="TI Build Tools" secondaryOutputs="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.outputType__BIN" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.linkerDebug.1845132110">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.2087881630" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=Cortex M.TM4C1294NCPDT"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=ELF"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=6.1.3"/>
+								<listOptionValue builtIn="false" value="ENERGIA_BOARD=tivac.EK-TM4C1294XL"/>
+								<listOptionValue builtIn="false" value="PRODUCTS=energia.core:18.0;"/>
+								<listOptionValue builtIn="false" value="ENERGIA_MBS_VERSION=8.0.0"/>
+								<listOptionValue builtIn="false" value="PRODUCT_MACRO_IMPORTS={}"/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="ENERGIA_VERSION=18.0"/>
+								<listOptionValue builtIn="false" value="ENERGIA_BOARD_PKG_VERSION=1.0.3"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1236534592" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="GNU_6.3.1:Energia" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.targetPlatformDebug.1023679115" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.targetPlatformDebug"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.builderDebug.1854909958" name="GNU Make.Debug" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.builderDebug"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerDebug.1376087311" name="GNU Compiler" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.INCLUDE_PATH.1420321445" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="${INHERITED_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_INCLUDE_PATH}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEFINE.1757023478" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="${INHERITED_SYMBOLS}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_SYMBOLS}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MCPU.313452065" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MCPU" value="cortex-m4" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MARCH.1795856184" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MARCH" value="armv7e-m" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CODE_STATE.1263614190" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CODE_STATE" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CODE_STATE.THUMB" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFLOAT_ABI.985015415" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFLOAT_ABI" value="hard" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFPU.532550418" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFPU" value="fpv4-sp-d16" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_C.390848878" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_C" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_C.GNU11" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_CPP.701529258" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_CPP" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_CPP.GNUPP11" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FRTTI.980622916" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FRTTI" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FRTTI.OFF" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NO_THREADSAFE_STATICS.324213589" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NO_THREADSAFE_STATICS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OPT_LEVEL.99192162" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OPT_LEVEL.OPT_FOR_SPACE" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FUNCTION_SECTIONS.1881045856" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FUNCTION_SECTIONS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DATA_SECTIONS.1763651357" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DATA_SECTIONS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEBUG.1516999872" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEBUG" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DWARF_VERSION.1997413949" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DWARF_VERSION" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DWARF_VERSION.3" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STRICT_DWARF.1723669455" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STRICT_DWARF" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NOWARN.2126023747" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NOWARN" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CMD_FILE.1265459476" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CMD_FILE" valueType="stringList">
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_COMPILER_OPTIONS}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CPP_SPECIFIC_FLAGS.1109518711" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CPP_SPECIFIC_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="-fno-exceptions"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.ASM_SPECIFIC_FLAGS.994515228" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.ASM_SPECIFIC_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="-x assembler-with-cpp"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OTHER_FLAGS.2013952772" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OTHER_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="--param max-inline-insns-single=500"/>
+									<listOptionValue builtIn="false" value="-mabi=aapcs"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS.2130951828" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS.1422486747" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS.993535094" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS.1836989073" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.linkerDebug.1845132110" name="GNU Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.linkerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SEARCH_PATH.96146688" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${workspace_loc:/tivac_EK-TM4C1294XL_core}/${ConfigName}"/>
+									<listOptionValue builtIn="false" value="${INHERITED_LIBRARY_PATH}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_SEARCH_PATH}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.LIBRARY.641315371" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="tivac_EK-TM4C1294XL_core"/>
+									<listOptionValue builtIn="false" value="${INHERITED_LIBRARIES}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_LIBRARIES}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OUTPUT_FILE.1068149774" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OUTPUT_FILE" value="${ProjName}.out" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.MAP_FILE.161883834" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.MAP_FILE" value="${ProjName}.map" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.ENTRY.2125821253" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.ENTRY" value="ResetISR" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTARTFILES.756356522" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTARTFILES" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTDLIB.1352508473" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTDLIB" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.GC_SECTIONS.1546513963" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.GC_SECTIONS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SCRIPTS.1828294190" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SCRIPTS" valueType="stringList">
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_LINKER_SCRIPTS}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OTHER_FLAGS.1606227992" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OTHER_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Os"/>
+									<listOptionValue builtIn="false" value="-specs=nano.specs"/>
+									<listOptionValue builtIn="false" value="-specs=rdimon.specs"/>
+									<listOptionValue builtIn="false" value="-specs=nosys.specs"/>
+									<listOptionValue builtIn="false" value="-Wl,--check-sections"/>
+									<listOptionValue builtIn="false" value="-Wl,--unresolved-symbols=report-all"/>
+									<listOptionValue builtIn="false" value="-Wl,--warn-common"/>
+									<listOptionValue builtIn="false" value="-fsingle-precision-constant"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD_SRCS.1545649701" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD2_SRCS.933305944" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__GEN_CMDS.63832814" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.177294311" name="GNU Objcopy Utility" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.TOOL_ENABLE.1295832557" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.TOOL_ENABLE" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.OUTPUT_TARGET.1572075471" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.OUTPUT_TARGET" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.OUTPUT_TARGET.BINARY" valueType="enumerated"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1031109136.Button.ino" name="Button.ino" rcbsApplicability="override" resourcePath="Button.ino" toolsToInvoke="org.eclipse.cdt.managedbuilder.ui.rcbs.853699494.2104575314.1509500528">
+						<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerDebug.1376087311.2064374949" name="GNU Compiler" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerDebug.1376087311">
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS.2100496881" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS.1270338336" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS.1094107091" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS.1710483578" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+						<tool command="" customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.853699494.2104575314.1509500528" name="Resource Custom Build Step">
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1575468272.1705847611.537034185" name="Resource Custom Build Step Output Type" outputNames="Button.cpp"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry excluding="Debug/Button.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="tivac_EK-TM4C1294XL_core;com.ti.ccstudio.buildDefinitions.TMS470.Debug.942428440" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.TMS470.Release.25588461">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.TMS470.Release.25588461" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Release.25588461" name="Release" parent="com.ti.ccstudio.buildDefinitions.TMS470.Release">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Release.25588461." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.ReleaseToolchain.1870871201" name="TI Build Tools" secondaryOutputs="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.outputType__BIN" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.linkerRelease.416046638">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.599004922" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=Cortex M.TM4C1294NCPDT"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=ELF"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=6.1.3"/>
+								<listOptionValue builtIn="false" value="ENERGIA_BOARD=tivac.EK-TM4C1294XL"/>
+								<listOptionValue builtIn="false" value="PRODUCTS=energia.core:18.0;"/>
+								<listOptionValue builtIn="false" value="ENERGIA_MBS_VERSION=8.0.0"/>
+								<listOptionValue builtIn="false" value="PRODUCT_MACRO_IMPORTS={}"/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="ENERGIA_VERSION=18.0"/>
+								<listOptionValue builtIn="false" value="ENERGIA_BOARD_PKG_VERSION=1.0.3"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1566959663" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="GNU_6.3.1:Energia" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.targetPlatformRelease.1539633842" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.targetPlatformRelease"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.builderRelease.1223443660" name="GNU Make.Release" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.builderRelease"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerRelease.1769922942" name="GNU Compiler" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.INCLUDE_PATH.895595386" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="${INHERITED_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_INCLUDE_PATH}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEFINE.1551594970" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="${INHERITED_SYMBOLS}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_SYMBOLS}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MCPU.872910638" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MCPU" value="cortex-m4" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MARCH.1871074598" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MARCH" value="armv7e-m" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CODE_STATE.1474002157" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CODE_STATE" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CODE_STATE.THUMB" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFLOAT_ABI.2114077246" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFLOAT_ABI" value="hard" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFPU.1497551941" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.MFPU" value="fpv4-sp-d16" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_C.2113947025" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_C" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_C.GNU11" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_CPP.667173832" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_CPP" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.STD_CPP.GNUPP11" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FRTTI.1557921387" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FRTTI" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FRTTI.OFF" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NO_THREADSAFE_STATICS.2145239270" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NO_THREADSAFE_STATICS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OPT_LEVEL.release.1024501133" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OPT_LEVEL.release" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OPT_LEVEL.OPT_FOR_SPACE" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FUNCTION_SECTIONS.472957219" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.FUNCTION_SECTIONS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DATA_SECTIONS.2000538783" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DATA_SECTIONS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEBUG.1897915179" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.DEBUG" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NOWARN.2013821527" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.NOWARN" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CMD_FILE.466833837" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CMD_FILE" valueType="stringList">
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_COMPILER_OPTIONS}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CPP_SPECIFIC_FLAGS.66901761" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.CPP_SPECIFIC_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="-fno-exceptions"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.ASM_SPECIFIC_FLAGS.1029381145" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.ASM_SPECIFIC_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="-x assembler-with-cpp"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OTHER_FLAGS.814659533" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compilerID.OTHER_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="--param max-inline-insns-single=500"/>
+									<listOptionValue builtIn="false" value="-mabi=aapcs"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS.1764158721" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS.73366138" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS.1610113737" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS.1424218019" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.linkerRelease.416046638" name="GNU Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.linkerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SEARCH_PATH.453150982" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${workspace_loc:/tivac_EK-TM4C1294XL_core}/${ConfigName}"/>
+									<listOptionValue builtIn="false" value="${INHERITED_LIBRARY_PATH}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_SEARCH_PATH}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.LIBRARY.1213283702" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="tivac_EK-TM4C1294XL_core"/>
+									<listOptionValue builtIn="false" value="${INHERITED_LIBRARIES}"/>
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_LIBRARIES}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OUTPUT_FILE.2022806652" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OUTPUT_FILE" value="${ProjName}.out" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.MAP_FILE.691601409" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.MAP_FILE" value="${ProjName}.map" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.ENTRY.28713090" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.ENTRY" value="ResetISR" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTARTFILES.1603139767" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTARTFILES" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTDLIB.1908537154" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.NOSTDLIB" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.GC_SECTIONS.1039623700" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.GC_SECTIONS" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SCRIPTS.1977186665" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.SCRIPTS" valueType="stringList">
+									<listOptionValue builtIn="false" value="${ENERGIA_CORE_LINKER_SCRIPTS}"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OTHER_FLAGS.1682352361" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.linkerID.OTHER_FLAGS" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Os"/>
+									<listOptionValue builtIn="false" value="-specs=nano.specs"/>
+									<listOptionValue builtIn="false" value="-specs=rdimon.specs"/>
+									<listOptionValue builtIn="false" value="-specs=nosys.specs"/>
+									<listOptionValue builtIn="false" value="-Wl,--check-sections"/>
+									<listOptionValue builtIn="false" value="-Wl,--unresolved-symbols=report-all"/>
+									<listOptionValue builtIn="false" value="-Wl,--warn-common"/>
+									<listOptionValue builtIn="false" value="-fsingle-precision-constant"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD_SRCS.1142512114" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD2_SRCS.1138221479" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__GEN_CMDS.608059522" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.1528360193" name="GNU Objcopy Utility" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.TOOL_ENABLE.781924686" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.TOOL_ENABLE" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.OUTPUT_TARGET.289665897" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.OUTPUT_TARGET" value="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.hex.OUTPUT_TARGET.BINARY" valueType="enumerated"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Release.25588461.Button.ino" name="Button.ino" rcbsApplicability="override" resourcePath="Button.ino" toolsToInvoke="org.eclipse.cdt.managedbuilder.ui.rcbs.765835173.1863040842.1522965887">
+						<tool id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerRelease.1769922942.227576719" name="GNU Compiler" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.exe.compilerRelease.1769922942">
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS.1749780943" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS.743207765" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS.1230185155" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS.1615834765" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_6.0.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+						<tool command="" customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.765835173.1863040842.1522965887" name="Resource Custom Build Step">
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1512307091.1573934239.1051391525" name="Resource Custom Build Step Output Type" outputNames="Button.cpp"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="tivac_EK-TM4C1294XL_core;com.ti.ccstudio.buildDefinitions.TMS470.Release.1373861309" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Button.com.ti.ccstudio.buildDefinitions.TMS470.ProjectType.45124525" name="TMS470" projectType="com.ti.ccstudio.buildDefinitions.TMS470.ProjectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

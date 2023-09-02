@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Interrupt ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Interrupt.out' is up to date.
+
+**** Build Finished ****

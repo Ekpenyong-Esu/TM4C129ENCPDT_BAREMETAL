@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project TimerA_Of_Timer1_Periodic ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --opt_for_speed=2 --include_path="C:/Users/mahon/workspace_v8/TimerA_Of_Timer1_Periodic" --include_path="C:/ti/tivaware_c_series_2_1_4_178" --include_path="C:/ti/tivaware_c_series_2_1_4_178/inc" --include_path="C:/ti/tivaware_c_series_2_1_4_178/utils" --include_path="C:/ti/tivaware_c_series_2_1_4_178/driverlib" --include_path="C:/ti/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "TimerA_Of_Timer1_Periodic.out"
+Invoking: ARM Linker
+"C:/ti/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --opt_for_speed=2 --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TimerA_Of_Timer1_Periodic.map" --heap_size=0 --stack_size=512 -i"C:/ti/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_Of_Timer1_Periodic_linkInfo.xml" --rom_model -o "TimerA_Of_Timer1_Periodic.out" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "../tm4c129encpdt.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "TimerA_Of_Timer1_Periodic.out"
+ 
+
+**** Build Finished ****

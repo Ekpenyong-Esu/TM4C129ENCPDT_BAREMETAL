@@ -1,0 +1,9 @@
+
+**** Build of configuration Debug for project toneMelody ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'toneMelody.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

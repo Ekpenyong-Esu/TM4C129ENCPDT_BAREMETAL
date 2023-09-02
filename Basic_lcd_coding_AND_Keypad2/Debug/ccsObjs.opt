@@ -1,0 +1,1 @@
+"./main.obj" "./tm4c129encpdt_startup_ccs.obj" "./drive/Key.obj" "../tm4c129encpdt.cmd" -llibc.a 

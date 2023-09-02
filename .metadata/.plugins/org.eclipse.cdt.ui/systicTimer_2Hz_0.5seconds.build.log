@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project systicTimer_2Hz_0.5seconds ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'systicTimer_2Hz_0.5seconds.out' is up to date.
+
+**** Build Finished ****
