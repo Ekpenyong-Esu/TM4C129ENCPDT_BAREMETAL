@@ -4,7 +4,35 @@
 
 
 // Function to configure UART0 for communication
-void UART0_Config(uint32_t baudRate) {
+void UART0_Config(uint32_t baudRate)
+{
+
+    // Enable the UART0 module
+    SYSCTL_RCGCUART_R |= SYSCTL_RCGCUART_R0;
+
+    // Enable clock to the corresponding GPIO port (Port A)
+    SYSCTL_RCGCGPIO_R |= SYSCTL_RCGCGPIO_R0;
+
+    // check if the peripheral register is ready
+    while(!(SYSCTL_PRGPIO_R & SYSCTL_PRGPIO_R0)){};
+
+    // Wait for the UART0 module to be ready
+    while (!(SYSCTL_PRUART_R & SYSCTL_PRUART_R0)) {}
+
+    // Set the UART pins (PA0: U0Rx, PA1: U0Tx)
+    GPIO_PORTA_AHB_AFSEL_R |= (1 << 1 | 1 << 0);  // Set PA1 and PA0 alternate function
+
+    // we first clear the reguster by using GPIO_PORTA_AHB_PCTL_R & 0xFFFFFF00 and the set porta pin 1 and pin 0
+    //by using 0x00000011 we can still use (0x00000011) only or use (1 << 0) for pin PA0
+    // and (1 << 4) for pin PA0
+    GPIO_PORTA_AHB_PCTL_R = (GPIO_PORTA_AHB_AFSEL_R & 0xFFFFFF00) | 0x00000011; // Enable UART on PA0 and PA1
+
+    // Setting pin 0 and pin1 of port A for digital enable
+    GPIO_PORTA_AHB_DEN_R  |= (1 << 1) | (1 << 0);
+
+
+    // Disabling analog input in pin 1 and pin 0 of port A
+    GPIO_PORTA_AHB_AMSEL_R &= ~(1 << 1 | 1 << 0);
 
     // Disable UART0 before configuring it
     UART0_CTL_R &= ~UART_CTL_UARTEN;
@@ -72,35 +100,6 @@ void UART0_ReceiveString(char *buffer, uint32_t bufferSize) {
 
 
 int main(void) {
-    // Enable the UART0 module
-    SYSCTL_RCGCUART_R |= SYSCTL_RCGCUART_R0;
-
-    // Enable clock to the corresponding GPIO port (Port A)
-    SYSCTL_RCGCGPIO_R |= SYSCTL_RCGCGPIO_R0;
-
-    // check if the peripheral register is ready
-    while(!(SYSCTL_PRGPIO_R & SYSCTL_PRGPIO_R0)){};
-
-    // Wait for the UART0 module to be ready
-    while (!(SYSCTL_PRUART_R & SYSCTL_PRUART_R0)) {}
-
-
-    // Set the UART pins (PA0: U0Rx, PA1: U0Tx)
-    GPIO_PORTA_AHB_AFSEL_R |= (1 << 1 | 1 << 0);  // Set PA1 and PA0 alternate function
-
-   // we first clear the reguster by using GPIO_PORTA_AHB_PCTL_R & 0xFFFFFF00 and the set porta pin 1 and pin 0
-    //by using 0x00000011 we can still use (0x00000011) only or use (1 << 0) for pin PA0
-    // and (1 << 4) for pin PA0
-    GPIO_PORTA_AHB_PCTL_R = (GPIO_PORTA_AHB_AFSEL_R & 0xFFFFFF00) | 0x00000011; // Enable UART on PA0 and PA1
-
-    // Setting pin 0 and pin1 of port A for digital enable
-    GPIO_PORTA_AHB_DEN_R  |= (1 << 1) | (1 << 0);
-
-
-    // Disabling analog input in pin 1 and pin 0 of port A
-    GPIO_PORTA_AHB_AMSEL_R &= ~(1 << 1 | 1 << 0);
-
-
 
     // Configure UART0 with a baud rate of 9600
     UART0_Config(9600);

@@ -2,18 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="SW1" key="selection"/>
+		<item value="TIMER" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="SW1"/>
-			<item value="SW!"/>
-			<item value="NVIC"/>
-			<item value="FPU_PRESENT"/>
-			<item value="__FPU_PRESENT"/>
-			<item value="NVIC_SetPriority"/>
+			<item value="timer"/>
+			<item value="reset"/>
+			<item value="SRADC"/>
+			<item value="NVIC_EN0_R"/>
+			<item value="INT"/>
+			<item value="SetPriority"/>
+			<item value=" NVIC_SetPriority"/>
+			<item value="ADC_CH"/>
+			<item value="ADC_CTL"/>
+			<item value="ADC"/>
+			<item value="UART0_SendChar "/>
+			<item value="WTIMER"/>
+			<item value="TIMER"/>
+			<item value="W"/>
+			<item value="WT"/>
 		</list>
 		<list key="replacehistory">
 		</list>

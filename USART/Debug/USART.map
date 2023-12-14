@@ -1,17 +1,17 @@
 ******************************************************************************
                   TI ARM Linker PC v18.1.4                     
 ******************************************************************************
->> Linked Sun Jul 23 16:09:26 2023
+>> Linked Sun Sep 24 14:04:40 2023
 
 OUTPUT FILE NAME:   <USART.out>
-ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 00000405
+ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 000003fd
 
 
 MEMORY CONFIGURATION
 
          name            origin    length      used     unused   attr    fill
 ----------------------  --------  ---------  --------  --------  ----  --------
-  FLASH                 00000000   00100000  00000456  000ffbaa  R  X
+  FLASH                 00000000   00100000  0000044e  000ffbb2  R  X
   SRAM                  20000000   00040000  00000200  0003fe00  RW X
 
 
@@ -19,9 +19,9 @@ SEGMENT ALLOCATION MAP
 
 run origin  load origin   length   init length attrs members
 ----------  ----------- ---------- ----------- ----- -------
-00000000    00000000    00000456   00000456    r-x
+00000000    00000000    0000044e   0000044e    r-x
   00000000    00000000    00000208   00000208    r-- .intvecs
-  00000208    00000208    0000024e   0000024e    r-x .text
+  00000208    00000208    00000246   00000246    r-x .text
 20000000    20000000    00000200   00000000    rw-
   20000000    20000000    00000200   00000000    rw- .stack
 
@@ -34,12 +34,12 @@ section   page    origin      length       input sections
 .intvecs   0    00000000    00000208     
                   00000000    00000208     tm4c129encpdt_startup_ccs.obj (.intvecs)
 
-.text      0    00000208    0000024e     
-                  00000208    000001fc     main.obj (.text)
-                  00000404    00000030     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noinit_noargs:_c_int00_noinit_noargs)
-                  00000434    00000004                                   : pre_init.c.obj (.text:_system_pre_init)
-                  00000438    0000001a     tm4c129encpdt_startup_ccs.obj (.text)
-                  00000452    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : exit.c.obj (.text:abort:abort)
+.text      0    00000208    00000246     
+                  00000208    000001f4     main.obj (.text)
+                  000003fc    00000030     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noinit_noargs:_c_int00_noinit_noargs)
+                  0000042c    00000004                                   : pre_init.c.obj (.text:_system_pre_init)
+                  00000430    0000001a     tm4c129encpdt_startup_ccs.obj (.text)
+                  0000044a    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : exit.c.obj (.text:abort:abort)
 
 .cinit     0    00000000    00000000     UNINITIALIZED
 
@@ -56,9 +56,9 @@ MODULE SUMMARY
        ------                          ----   -------   -------
     .\
        tm4c129encpdt_startup_ccs.obj   26     520       0      
-       main.obj                        508    0         0      
+       main.obj                        500    0         0      
     +--+-------------------------------+------+---------+---------+
-       Total:                          534    520       0      
+       Total:                          526    520       0      
                                                                
     C:\ti\ccsv8\tools\compiler\ti-cgt-arm_18.1.4.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
        boot_cortex_m.c.obj             48     0         0      
@@ -69,20 +69,20 @@ MODULE SUMMARY
                                                                
        Stack:                          0      0         512    
     +--+-------------------------------+------+---------+---------+
-       Grand Total:                    590    520       512    
+       Grand Total:                    582    520       512    
 
 
 GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
 
 address   name                  
 -------   ----                  
-00000453  C$$EXIT               
-00000439  ResetISR              
+0000044b  C$$EXIT               
+00000431  ResetISR              
 00000209  UART0_Config          
-00000289  UART0_ReceiveChar     
-000002b9  UART0_ReceiveString   
-00000269  UART0_SendChar        
-00000299  UART0_SendString      
+000002d9  UART0_ReceiveChar     
+00000309  UART0_ReceiveString   
+000002b9  UART0_SendChar        
+000002e9  UART0_SendString      
 20000200  __STACK_END           
 00000200  __STACK_SIZE          
 20000200  __STACK_TOP           
@@ -94,12 +94,12 @@ ffffffff  __binit__
 ffffffff  __c_args__            
 UNDEFED   __mpu_init            
 20000000  __stack               
-00000405  _c_int00_noinit_noargs
-00000435  _system_pre_init      
-00000453  abort                 
+000003fd  _c_int00_noinit_noargs
+0000042d  _system_pre_init      
+0000044b  abort                 
 ffffffff  binit                 
 00000000  g_pfnVectors          
-00000309  main                  
+00000359  main                  
 
 
 GLOBAL SYMBOLS: SORTED BY Symbol Address 
@@ -110,16 +110,16 @@ address   name
 00000000  g_pfnVectors          
 00000200  __STACK_SIZE          
 00000209  UART0_Config          
-00000269  UART0_SendChar        
-00000289  UART0_ReceiveChar     
-00000299  UART0_SendString      
-000002b9  UART0_ReceiveString   
-00000309  main                  
-00000405  _c_int00_noinit_noargs
-00000435  _system_pre_init      
-00000439  ResetISR              
-00000453  C$$EXIT               
-00000453  abort                 
+000002b9  UART0_SendChar        
+000002d9  UART0_ReceiveChar     
+000002e9  UART0_SendString      
+00000309  UART0_ReceiveString   
+00000359  main                  
+000003fd  _c_int00_noinit_noargs
+0000042d  _system_pre_init      
+00000431  ResetISR              
+0000044b  C$$EXIT               
+0000044b  abort                 
 20000000  __stack               
 20000200  __STACK_END           
 20000200  __STACK_TOP           

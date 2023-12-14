@@ -1,8 +1,6 @@
 // THis code can only give delay of up to 4 milliseconds
 
 
-
-
 /* Defines boolean and integer data types */
 #include <stdbool.h>
 #include <stdint.h>
@@ -13,7 +11,6 @@
 
 void TimeroA_Mill(uint32_t milliseconds)
 {
-    int i;
 
     // Enable Timer0 Clock
     SYSCTL_RCGCTIMER_R |= SYSCTL_RCGCTIMER_R0;
