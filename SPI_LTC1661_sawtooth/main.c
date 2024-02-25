@@ -25,7 +25,7 @@ void initSSI() {
 
     GPIO_PORTA_AHB_AFSEL_R |= 0x5 << 2;   // Enable alternative functions on PA2, PA4
     GPIO_PORTA_AHB_DEN_R |=  0x5 << 2;     // Enable digital I/O on PA2,  PA4
-    GPIO_PORTA_AHB_PCTL_R = (GPIO_PORTA_AHB_PCTL_R & ~0x000F0F00) | 0x00F0F00;  // Configure PA2,  PA4  as SSI
+    GPIO_PORTA_AHB_PCTL_R = (GPIO_PORTA_AHB_PCTL_R & ~0x000F0F00) | 0x000F0F00;  // Configure PA2,  PA4  as SSI
     GPIO_PORTA_AHB_AMSEL_R = 0;       // Disable analog functionality on PA2, PA4
 
 
